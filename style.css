@@ -79,7 +79,7 @@ nav{
     margin-bottom:20px;
 }
 
-.gradient-text, .about-aboutme, .name-aboutme, .section-title span{
+.gradient-text, .about-aboutme, .name-aboutme, .section-title span, .contact-title span{
     background:linear-gradient(to right,#22D3EE,#8B5CF6);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
@@ -373,3 +373,54 @@ nav{
   margin-bottom: 20px;
 }
 
+.contact {
+  color: #ffffff;
+  padding: 80px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contact-description {
+  color: #aaaaaa;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  max-width: 450px;
+}
+
+.contact-details p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.social-text {
+  color: #aaaaaa;
+  margin-top: 25px !important;
+  font-size: 14px !important;
+}
