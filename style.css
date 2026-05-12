@@ -41,7 +41,7 @@ nav{
 }
 
 .logo{
-    font-size:1.5rem;
+    font-size:1.3rem;
     font-weight:700;
     color:#22D3EE;
 }
@@ -146,6 +146,20 @@ nav{
     display: block;
     margin: 0 auto;
     border-radius: 4px;
+
+    animation: floatAnimation 4s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px); /* Moves up by 15 pixels */
+    }
+    100% {
+        transform: translateY(0px); /* Returns to original position */
+    }
 }
 
 .about-content h2 {
@@ -188,6 +202,10 @@ nav{
     section {
         height: auto;
         padding: 80px 0 40px 0;
+    }
+
+    nav {
+        position: fixed; 
     }
 
     .nav-container {
@@ -243,5 +261,13 @@ nav{
         text-align: justify;
         margin-bottom: 20px;
         color: #cccccc;
+    }
+
+    .about-image img {
+        width: 50%;
+        height: auto;
+        max-width: 350px;
+        margin: 20px auto 0 auto;
+        display: block;
     }
 }
