@@ -180,6 +180,7 @@ nav{
         margin-top: -40px;
         display: block;
     }
+    
 }
 
 .about-container {
@@ -233,5 +234,43 @@ nav{
 
 .btn-more:hover {
     background-color: #e04a1b;
-    transform: translateY(-2px);
+    transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 280px;
+    }
+
+    .about-content h2 {
+        font-size: 2.2rem;
+        margin-bottom: 8px;
+    }
+
+    .about-content h3 {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    .about-content p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .btn-more {
+        padding: 12px 24px;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .btn-more:hover {
+        transform: translateY(-2px);
+    }
 }
