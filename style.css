@@ -79,7 +79,7 @@ nav{
     margin-bottom:20px;
 }
 
-.gradient-text{
+.gradient-text, .about-aboutme, .name-aboutme{
     background:linear-gradient(to right,#22D3EE,#8B5CF6);
     -webkit-background-clip:text;
     -webkit-text-fill-color:transparent;
@@ -125,7 +125,7 @@ nav{
 .hero-image img{
     height: 647px;
     width: 556px;
-    margin-top: 85px;
+    margin-top: 80px;
     margin-right: 20px;
     margin-left: 70px;
 }
@@ -177,6 +177,61 @@ nav{
         height: auto;
         max-width: 350px;
         margin: 20px auto 0 auto;
+        margin-top: -40px;
         display: block;
     }
+}
+
+.about-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.about-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.about-content h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.about-content p {
+    color: #cccccc;
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.btn-more {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 32px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-more:hover {
+    background-color: #e04a1b;
+    transform: translateY(-2px);
 }
