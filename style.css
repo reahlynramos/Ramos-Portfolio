@@ -512,3 +512,25 @@ nav{
     width: 100%;
   }
 }
+
+/* Footer Styles */
+.site-footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
