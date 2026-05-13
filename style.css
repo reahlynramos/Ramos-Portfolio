@@ -534,3 +534,11 @@ nav{
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Places the animation behind your content */
+}
